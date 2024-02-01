@@ -8,7 +8,7 @@ export const getUbicaciones = async (req,res) => {
 
     } catch (error) {
         return res.status(500).json({
-            message: "Algo salio mal"
+            message: "ARTOOOOOOOO"
         })
     }
     
