@@ -2,14 +2,14 @@ CREATE DATABASE IF NOT EXISTS ochoa
 
 USE ochoa
 
-CREATE TABLE ubicacion (
+CREATE TABLE ubicaciones (
     id INT(11) NOT NULL AUTO_INCREMENT
     nombre VARCHAR(250) DEFAULT NULL
 )
 
-DESCRIBE ubicacion
+DESCRIBE ubicaciones
 
-INSERT INTO ubicacion VALUES
+INSERT INTO ubicaciones VALUES
 (1,"CASA"),
 (2,"EDIFICIO"),
 (3,"Local"),
