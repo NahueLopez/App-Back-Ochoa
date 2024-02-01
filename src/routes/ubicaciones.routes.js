@@ -1,5 +1,10 @@
 import { Router } from "express";
-import {getUbicaciones, getUbicacion, createUbicacion, updateUbicacion,deleteUbicacion} from "../controllers/ubicaciones.controllers.js"
+import {getUbicaciones, 
+        getUbicacion, 
+        createUbicacion, 
+        updateUbicacion,
+        deleteUbicacion
+} from "../controllers/ubicaciones.controllers.js"
 
 const router = Router()
 
