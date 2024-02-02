@@ -36,6 +36,7 @@ export const getUbicacion = async (req,res) => {
 export const createUbicacion = async (req,res) => {
     try {
         const { nombre } = req.body
+        
         const [rows] = await pool.query('INSERT INTO ubicaciones(nombre) VALUES (?)', [nombre] )
         res.send({
             id: rows.insertId,
